@@ -425,7 +425,6 @@ if ($action == "confirmdelquestion" || $action == "confirmdelquestionparent") {
         }
     }
     echo $OUTPUT->confirm($msg, $buttonyes, $buttonno);
-
 } else {
     $questionsform->display();
 }
