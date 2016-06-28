@@ -73,6 +73,7 @@ $courseid = $course->id;
 if (!isset($SESSION->questionnaire)) {
     $SESSION->questionnaire = new stdClass();
 }
+
 $SESSION->questionnaire->current_tab = 'myreport';
 
 switch ($action) {
